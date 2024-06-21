@@ -40,11 +40,11 @@ const Details = () => {
   }, [id]); // Dependency array includes id to refetch if it changes
 
   return (
-    <div className="flex flex-col min-h-screen mt-16">
+    <div className="flex flex-col min-h-screen mt-20">
       <Header />
       <div className="flex-grow container mx-auto px-4 py-8">
         {loading ? (
-          <p className="text-xl text-center">Loading article...</p>
+          <p className="text-3xl text-white mt-40  font-semibold text-center">Loading article...</p>
         ) : article ? (
           <div className="bg-white rounded shadow-md shadow-gray-500 p-4 sm:p-6 md:p-8 lg:p-10">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
