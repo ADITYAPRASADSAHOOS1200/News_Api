@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+  
+  /* WebKit specific styles */
+  /* For older Safari versions */
+  body::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for the entire body */
+  }
+  
+ 
+  
